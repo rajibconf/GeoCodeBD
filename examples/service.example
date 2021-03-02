@@ -1,0 +1,17 @@
+[Unit]
+Description=GeoCodeBD-uWSGI-instance
+After=network.target postgresql-11.service
+
+[Service]
+User=centos
+Group=nginx
+WorkingDirectory=/opt/GeoCodeBD
+Environment="PATH=/opt/GeoCodeBD/venv/bin"
+ExecStart=/opt/GeoCodeBD/venv/bin/uwsgi --ini /opt/GeoCodeBD/uwsgi/uwsgi.ini
+Restart=always
+KillSignal=SIGQUIT
+Type=notify
+NotifyAccess=all
+
+[Install]
+WantedBy=multi-user.target
