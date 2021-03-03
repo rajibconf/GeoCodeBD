@@ -9,7 +9,7 @@
     </li>
 {% endblock %}
 
-{% block content %}
+{% block content_body %}
     {% if perms.Core.add_user %}
         <div class="row no-gutters content-border bg-info my-1">
             <a class="w-100" href="{% url 'core:user_create' %}">
