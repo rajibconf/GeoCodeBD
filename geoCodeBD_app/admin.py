@@ -71,12 +71,14 @@ class UpazilaModelAdmin(admin.ModelAdmin):
 @admin.register(Union)
 class UnionModelAdmin(admin.ModelAdmin):
     list_display = [
-        'upazila', 'name', 'bn_name', 'code',
+        'division', 'district', 'upazila',
+        'name', 'bn_name', 'code', 'url',
         # 'created_at', 'updated_at',
         'is_active'
     ]
     list_filter = [
-        'is_active', 'upazila'
+        'is_active', 'upazila__district__division',
+        'upazila__district', 'upazila'
     ]
     search_fields = [
         'name', 'bn_name', 'url'
@@ -85,6 +87,12 @@ class UnionModelAdmin(admin.ModelAdmin):
         'name', 'bn_name'
     ]
     # readonly_fields = ('created_at', 'updated_at')
+
+    def division(self, obj):
+        return obj.upazila.district.division
+
+    def district(self, obj):
+        return obj.upazila.district
 
 
 @admin.register(Village)
