@@ -1,9 +1,10 @@
 {% extends 'base/base.html' %}
+{% load static %}
 
-{% block title_text %}Index{% endblock %}
+{% block title_text %}dashboard{% endblock %}
 
-{% block content %}
+{% block content_body %}
     <div class="row no-gutters content-border p-3">
-        Page body contents here.
+        <img src="{% static 'img/bdmap.png' %}" alt="bdmap">
     </div>
-{% endblock %}
+{% endblock content_body %}
