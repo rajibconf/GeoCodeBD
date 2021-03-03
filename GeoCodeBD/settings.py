@@ -106,7 +106,8 @@ PLUGIN_APPS = [
 # add project applications here
 PROJECT_APPS = [
     'Core',
-    'API'
+    'API',
+    'geoCodeBD_app'
 ]
 
 # consolidate all installed applications here
