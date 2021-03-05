@@ -39,4 +39,4 @@ class Union(CommonFieldModel):
         ordering = ['name']
 
     def __str__(self):
-        return self.bn_name
+        return self.name

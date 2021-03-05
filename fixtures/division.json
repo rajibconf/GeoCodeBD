@@ -1,0 +1,130 @@
+[
+{
+    "model": "geoCodeBD_app.division",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "is_active": true,
+        "created_at": "2021-03-03T18:19:06.706Z",
+        "last_updated": "2021-03-03T18:19:06.706Z",
+        "name": "Chattagram",
+        "bn_name": "চট্টগ্রাম",
+        "code": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "www.chittagongdiv.gov.bd"
+    }
+},
+{
+    "model": "geoCodeBD_app.division",
+    "pk": 2,
+    "fields": {
+        "created_by": null,
+        "is_active": true,
+        "created_at": "2021-03-03T18:19:06.873Z",
+        "last_updated": "2021-03-03T18:19:06.873Z",
+        "name": "Rajshahi",
+        "bn_name": "রাজশাহী",
+        "code": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "www.rajshahidiv.gov.bd"
+    }
+},
+{
+    "model": "geoCodeBD_app.division",
+    "pk": 3,
+    "fields": {
+        "created_by": null,
+        "is_active": true,
+        "created_at": "2021-03-03T18:19:06.935Z",
+        "last_updated": "2021-03-03T18:19:06.935Z",
+        "name": "Khulna",
+        "bn_name": "খুলনা",
+        "code": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "www.khulnadiv.gov.bd"
+    }
+},
+{
+    "model": "geoCodeBD_app.division",
+    "pk": 4,
+    "fields": {
+        "created_by": null,
+        "is_active": true,
+        "created_at": "2021-03-03T18:19:06.982Z",
+        "last_updated": "2021-03-03T18:19:06.982Z",
+        "name": "Barisal",
+        "bn_name": "বরিশাল",
+        "code": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "www.barisaldiv.gov.bd"
+    }
+},
+{
+    "model": "geoCodeBD_app.division",
+    "pk": 5,
+    "fields": {
+        "created_by": null,
+        "is_active": true,
+        "created_at": "2021-03-03T18:19:07.011Z",
+        "last_updated": "2021-03-03T18:19:07.011Z",
+        "name": "Sylhet",
+        "bn_name": "সিলেট",
+        "code": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "www.sylhetdiv.gov.bd"
+    }
+},
+{
+    "model": "geoCodeBD_app.division",
+    "pk": 6,
+    "fields": {
+        "created_by": null,
+        "is_active": true,
+        "created_at": "2021-03-03T18:19:07.039Z",
+        "last_updated": "2021-03-03T18:19:07.039Z",
+        "name": "Dhaka",
+        "bn_name": "ঢাকা",
+        "code": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "www.dhakadiv.gov.bd"
+    }
+},
+{
+    "model": "geoCodeBD_app.division",
+    "pk": 7,
+    "fields": {
+        "created_by": null,
+        "is_active": true,
+        "created_at": "2021-03-03T18:19:07.069Z",
+        "last_updated": "2021-03-03T18:19:07.069Z",
+        "name": "Rangpur",
+        "bn_name": "রংপুর",
+        "code": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "www.rangpurdiv.gov.bd"
+    }
+},
+{
+    "model": "geoCodeBD_app.division",
+    "pk": 8,
+    "fields": {
+        "created_by": null,
+        "is_active": true,
+        "created_at": "2021-03-03T18:19:07.091Z",
+        "last_updated": "2021-03-03T18:19:07.091Z",
+        "name": "Mymensingh",
+        "bn_name": "ময়মনসিংহ",
+        "code": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "www.mymensinghdiv.gov.bd"
+    }
+}
+]
