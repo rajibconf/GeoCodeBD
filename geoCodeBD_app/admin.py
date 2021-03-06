@@ -98,7 +98,9 @@ class UnionModelAdmin(admin.ModelAdmin):
 @admin.register(Village)
 class VillageModelAdmin(admin.ModelAdmin):
     list_display = [
-        'union', 'name', 'bn_name', 'code',
+        'division', 'district', 'upazila',
+        'union', 'name',
+        'bn_name', 'code',
         # 'created_at', 'updated_at',
         'is_active'
     ]
@@ -112,3 +114,12 @@ class VillageModelAdmin(admin.ModelAdmin):
         'name', 'bn_name'
     ]
     # readonly_fields = ('created_at', 'updated_at')
+
+    def division(self, obj):
+        return obj.union.upazila.district.division
+
+    def district(self, obj):
+        return obj.union.upazila.district
+
+    def upazila(self, obj):
+        return obj.union.upazila
