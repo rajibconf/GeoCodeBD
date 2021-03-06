@@ -32,7 +32,7 @@ class Upazila(CommonFieldModel):
     )
     url = models.CharField(
         _('ওয়েবসাইটের ঠিকানা'), max_length=120,
-        unique=True, blank=False, null=True
+        unique=True, blank=True, null=True
     )
 
     class Meta:

@@ -32,7 +32,7 @@ class Union(CommonFieldModel):
     )
     url = models.CharField(
         _('ওয়েবসাইটের ঠিকানা'), max_length=120,
-        blank=False, null=True
+        blank=True, null=True
     )
 
     class Meta:
