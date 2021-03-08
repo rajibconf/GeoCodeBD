@@ -52,7 +52,8 @@ class DistrictModelAdmin(admin.ModelAdmin):
 @admin.register(Upazila)
 class UpazilaModelAdmin(admin.ModelAdmin):
     list_display = [
-        'district', 'name', 'bn_name', 'code',
+        'division', 'district', 'name',
+        'bn_name', 'code',
         # 'created_at', 'updated_at',
         'is_active'
     ]
@@ -66,6 +67,9 @@ class UpazilaModelAdmin(admin.ModelAdmin):
         'name', 'bn_name'
     ]
     # readonly_fields = ('created_at', 'updated_at')
+
+    def division(self, obj):
+        return obj.district.division
 
 
 @admin.register(Union)
