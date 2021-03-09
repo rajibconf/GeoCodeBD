@@ -22,7 +22,7 @@ class Union(CommonFieldModel):
     )
     code = models.CharField(
         _('ইউনিয়নের কোড'), max_length=10,
-        blank=False, null=True
+        blank=True, null=True
     )
     latitude = models.CharField(
         max_length=50, blank=True, null=True

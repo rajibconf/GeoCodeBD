@@ -22,7 +22,7 @@ class Village(CommonFieldModel):
     )
     code = models.CharField(
         _('গ্রামের কোড'), max_length=10,
-        blank=False, null=True
+        blank=True, null=True
     )
     latitude = models.CharField(
         max_length=50, blank=True, null=True
