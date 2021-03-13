@@ -133,7 +133,4 @@ def get_fields():
     for obj in users:
         print(f"{obj.email}")
 
-
 # get_fields()
-
-# comment
