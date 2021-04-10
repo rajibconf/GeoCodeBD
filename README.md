@@ -3,7 +3,7 @@
 [![python-version](https://img.shields.io/badge/python-3.8-blue)](https://www.python.org)
 [![postgresql-version](https://img.shields.io/badge/postgresql-12.3-orange)](https://www.postgresql.org)
 [![Coverage](https://jenkins.tiger-park.com/coverage/GeoCodeBD)](https://jenkins.tiger-park.com/job/GeoCodeBD/cobertura)
-[![GH-Actions](https://github.com/Tiger-Park-Limited/GeoCodeBD/workflows/GeoCodeBD_CI/badge.svg)](https://github.com/Tiger-Park-Limited/GeoCodeBD/actions)
+[![GH-Actions](https://github.com/github-rajib/GeoCodeBD/workflows/GeoCodeBD_CI/badge.svg)](https://github.com/github-rajib/GeoCodeBD/actions)
 [![Jenkins_CI](https://jenkins.tiger-park.com/buildStatus/icon?job=GeoCodeBD&subject=Jenkins)](https://jenkins.tiger-park.com/job/GeoCodeBD)
 
 ###### _A Django Project._
