@@ -2,7 +2,7 @@
 import csv
 # DJANGO IMPORTS
 
-# APP IMPORTS
+# APP IMPORTS.
 from geoCodeBD_app.models import (
     Division, District, Upazila,
     Union
